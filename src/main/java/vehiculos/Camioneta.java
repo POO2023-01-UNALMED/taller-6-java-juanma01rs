@@ -9,7 +9,7 @@ public class Camioneta extends Vehículo {
 		
 		super(placa, puertas, 90, nombre, precio, peso, "4X4", fabricante);
 		this.volco = volco;
-		Camioneta.cantidadCamionetas++;
+		cantidadCamionetas++;
 	}
 	
 	public void setVolco(boolean volco) {
@@ -21,6 +21,6 @@ public class Camioneta extends Vehículo {
 	}
 
 	public static int getCantidadCamionetas() {
-		return Camioneta.cantidadCamionetas;
+		return cantidadCamionetas;
 	}
 }

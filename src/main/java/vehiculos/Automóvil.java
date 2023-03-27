@@ -9,7 +9,7 @@ public class Automóvil extends Vehículo {
 	
 		super(placa, 4, 100, nombre, precio, peso, "FWD", fabricante);
 		this.puestos = puestos;
-		Automóvil.cantidadAutomoviles++;
+		cantidadAutomoviles++;
 	}
 	
 	public void setPuestos(int puestos) {
@@ -21,7 +21,7 @@ public class Automóvil extends Vehículo {
 	}
 	
 	public static int getCantidadAutomoviles() {
-		return Automóvil.cantidadAutomoviles;
+		return cantidadAutomoviles;
 	}
 
 }
