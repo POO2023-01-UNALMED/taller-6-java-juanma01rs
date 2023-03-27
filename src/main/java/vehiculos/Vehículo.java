@@ -25,7 +25,7 @@ public class Vehículo {
 	}
 	
 	public static String vehiculosPorTipo() {
-		return ("Automoviles: " + (Automóvil.cantidadAutomoviles) + "\n" + "Camionetas: " + (Camion.cantidadCamiones) + "\n" + "Camiones: " + (Camioneta.cantidadCamionetas));
+		return ("Automoviles: " + (Automóvil.getCantidadAutomoviles()) + "\n" + "Camionetas: " + (Camion.getCantidadCamiones) + "\n" + "Camiones: " + (Camioneta.getCantidadCamionetas));
 	}
 	
 	public void setPlaca(String placa) {

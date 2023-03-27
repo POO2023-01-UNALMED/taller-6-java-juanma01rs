@@ -5,7 +5,7 @@ public class Automóvil extends Vehículo {
 	private int puestos;
 	public static int cantidadAutomoviles;
 	
-	public Automóvil (String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String traccion, Fabricante fabricante, int puestos) {
+	public Automóvil (String placa, String nombre, int precio, int peso, Fabricante fabricante, int puestos) {
 	
 		super(placa, 4, 100, nombre, precio, peso, "FWD", fabricante);
 		this.puestos = puestos;
@@ -18,6 +18,10 @@ public class Automóvil extends Vehículo {
 	
 	public int getPuestos() {
 		return this.puestos;
+	}
+	
+	public static int getCantidadAutomoviles() {
+		return Automóvil.cantidadAutomoviles;
 	}
 
 }
