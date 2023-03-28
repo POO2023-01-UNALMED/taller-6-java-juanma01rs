@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Pais {
 	
 	private String nombre;
-	private int ventas;
+	public int ventas;
 	private static ArrayList<Pais> listaPaises = new ArrayList<Pais>();
 	
 	public Pais(String nombre) {
@@ -13,7 +13,7 @@ public class Pais {
 		listaPaises.add(this);
 	}
 	
-	public static void paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 		Pais masVendedor = listaPaises.get(0);
 		
 		for (Pais recorridoP: listaPaises) {
