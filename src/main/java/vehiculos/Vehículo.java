@@ -1,16 +1,18 @@
 package vehiculos;
 
+import java.util.ArrayList;
+
 public class Vehículo {
 	
-	protected String placa;
-	protected int puertas;
-	protected int velocidadMaxima;
-	protected String nombre;
-	protected int precio;
-	protected int peso;
-	protected String traccion;
-	protected Fabricante fabricante;
-	protected static int CantidadVehiculos;
+	private String placa;
+	private int puertas;
+	private int velocidadMaxima;
+	private String nombre;
+	private int precio;
+	private int peso;
+	private String traccion;
+	private Fabricante fabricante;
+	private static int CantidadVehiculos;
 
 	public Vehículo (String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String traccion, Fabricante fabricante) {
 		this.placa = placa;
@@ -22,6 +24,7 @@ public class Vehículo {
 		this.traccion = traccion;
 		this.fabricante = fabricante;
 		Vehículo.CantidadVehiculos++;
+		fabricante.ventasFabricante++;
 	}
 	
 	public static String vehiculosPorTipo() {
@@ -90,5 +93,9 @@ public class Vehículo {
 	
 	public Fabricante getFabricante() {
 		return this.fabricante;
+	}
+	
+	public static int getCantidadVehiculos() {
+		return CantidadVehiculos;
 	}
 }
