@@ -95,8 +95,8 @@ public class Vehiculo {
 		return fabricante;
 	}
 	
-	public void setCantidadVehiculos(int CantidadVehiculos) {
-		this.CantidadVehiculos = CantidadVehiculos;
+	public static void setCantidadVehiculos(int cantidadVehiculos) {
+		CantidadVehiculos = cantidadVehiculos;
 	}
 	
 	public static int getCantidadVehiculos() {
