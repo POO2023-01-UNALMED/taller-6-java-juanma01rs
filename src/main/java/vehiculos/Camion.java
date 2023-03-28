@@ -3,13 +3,13 @@ package vehiculos;
 public class Camion extends Vehículo {
 
 	private int ejes;
-	private static int cantidadCamiones;
+	private static int CantidadCamiones;
 	
 	public Camion (String placa, String nombre, int precio, int peso, Fabricante fabricante, int ejes) {
 		
 		super(placa, 2, 80, nombre, precio, peso, "4X2", fabricante);
 		this.ejes = ejes;
-		Camion.cantidadCamiones++;
+		Camion.CantidadCamiones++;
 	}
 	
 	public void setEjes(int ejes) {
@@ -21,6 +21,6 @@ public class Camion extends Vehículo {
 	}
 	
 	public static int getCantidadCamiones() {
-		return cantidadCamiones;
+		return CantidadCamiones;
 	}
 }
