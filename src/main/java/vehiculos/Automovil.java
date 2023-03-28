@@ -1,6 +1,6 @@
 package vehiculos;
 
-public class Automovil extends Vehículo {
+public class Automovil extends Vehiculo {
 	
 	private int puestos;
 	private static int CantidadAutomoviles;
@@ -9,7 +9,7 @@ public class Automovil extends Vehículo {
 	
 		super(placa, 4, 100, nombre, precio, peso, "FWD", fabricante);
 		this.puestos = puestos;
-		Automovil.CantidadAutomoviles++;
+		CantidadAutomoviles++;
 	}
 	
 	public void setPuestos(int puestos) {

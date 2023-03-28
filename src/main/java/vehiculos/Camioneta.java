@@ -1,6 +1,6 @@
 package vehiculos;
 
-public class Camioneta extends Vehículo {
+public class Camioneta extends Vehiculo {
 	
 	private boolean volco;
 	private static int CantidadCamionetas;
@@ -9,7 +9,7 @@ public class Camioneta extends Vehículo {
 		
 		super(placa, puertas, 90, nombre, precio, peso, "4X4", fabricante);
 		this.volco = volco;
-		Camioneta.CantidadCamionetas++;
+		CantidadCamionetas++;
 	}
 	
 	public void setVolco(boolean volco) {

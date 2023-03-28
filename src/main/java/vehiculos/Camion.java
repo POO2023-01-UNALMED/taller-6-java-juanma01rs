@@ -1,6 +1,6 @@
 package vehiculos;
 
-public class Camion extends Vehículo {
+public class Camion extends Vehiculo {
 
 	private int ejes;
 	private static int CantidadCamiones;
@@ -9,7 +9,7 @@ public class Camion extends Vehículo {
 		
 		super(placa, 2, 80, nombre, precio, peso, "4X2", fabricante);
 		this.ejes = ejes;
-		Camion.CantidadCamiones++;
+		CantidadCamiones++;
 	}
 	
 	public void setEjes(int ejes) {
