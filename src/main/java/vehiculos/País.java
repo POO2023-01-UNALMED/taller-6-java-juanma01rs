@@ -2,21 +2,21 @@ package vehiculos;
 
 import java.util.ArrayList;
 
-public class País {
+public class Pais {
 	
 	private String nombre;
 	private int ventasPais;
-	private static ArrayList<País> listaPaises = new ArrayList<País>();
+	private static ArrayList<Pais> listaPaises = new ArrayList<Pais>();
 	
-	public País(String nombre) {
+	public Pais(String nombre) {
 		this.nombre = nombre;
 		listaPaises.add(this);
 	}
 	
 	public static void paisMasVendedor() {
-		País masVendedor = listaPaises.get(0);
+		Pais masVendedor = listaPaises.get(0);
 		
-		for (País recorridoP: listaPaises) {
+		for (Pais recorridoP: listaPaises) {
 			if (recorridoP.ventasPais > masVendedor.ventasPais) {
 				masVendedor = recorridoP;
 			}

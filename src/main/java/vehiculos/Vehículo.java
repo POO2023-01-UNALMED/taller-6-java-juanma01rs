@@ -2,7 +2,7 @@ package vehiculos;
 
 import java.util.ArrayList;
 
-public class Vehículo {
+public class Vehiculo {
 	
 	private String placa;
 	private int puertas;
@@ -28,7 +28,7 @@ public class Vehículo {
 	}
 	
 	public static String vehiculosPorTipo() {
-		return ("Automoviles: " + (Automóvil.getCantidadAutomoviles()) + "\n" + "Camionetas: " + (Camion.getCantidadCamiones) + "\n" + "Camiones: " + (Camioneta.getCantidadCamionetas));
+		return ("Automoviles: " + (Automovil.getCantidadAutomoviles()) + "\n" + "Camionetas: " + (Camion.getCantidadCamiones) + "\n" + "Camiones: " + (Camioneta.getCantidadCamionetas));
 	}
 	
 	public void setPlaca(String placa) {
