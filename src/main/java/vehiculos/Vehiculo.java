@@ -24,7 +24,7 @@ public class Vehiculo {
 		this.traccion = traccion;
 		this.fabricante = fabricante;
 		CantidadVehiculos++;
-		fabricante.ventasFabricante++;
+		fabricante.ventas++;
 	}
 	
 	public static String vehiculosPorTipo() {
