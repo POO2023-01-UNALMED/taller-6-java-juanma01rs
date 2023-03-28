@@ -17,7 +17,7 @@ public class Camion extends Vehículo {
 	}
 	
 	public int getEjes() {
-		return this.ejes;
+		return ejes;
 	}
 	
 	public static int getCantidadCamiones() {

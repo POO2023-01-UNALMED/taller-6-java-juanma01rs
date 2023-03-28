@@ -30,7 +30,7 @@ public class Pais {
 	}
 	
 	public String getNombre() {
-		return this.nombre;
+		return nombre;
 	}
 }
 

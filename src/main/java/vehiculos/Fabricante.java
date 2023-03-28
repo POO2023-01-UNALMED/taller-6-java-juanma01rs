@@ -32,7 +32,7 @@ public class Fabricante {
 	}
 	
 	public String getNombre() {
-		return this.nombre;
+		return nombre;
 	}
 	
 	public void setPais(Pais pais) {
@@ -40,7 +40,7 @@ public class Fabricante {
 	}
 	
 	public Pais getPais() {
-		return this.pais;
+		return pais;
 	}
 }
 

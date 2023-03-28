@@ -36,7 +36,7 @@ public class Vehiculo {
 	}
 	
 	public String getPlaca() {
-		return this.placa;
+		return placa;
 	}
 	
 	public void setPuertas(int puertas) {
@@ -44,7 +44,7 @@ public class Vehiculo {
 	}
 	
 	public int getPuertas() {
-		return this.puertas;
+		return puertas;
 	}
 	
 	public void setVelocidadMaxima(int velocidadMaxima) {
@@ -52,7 +52,7 @@ public class Vehiculo {
 	}	
 	
 	public int getVelocidadMaxima() {
-		return this.velocidadMaxima;
+		return velocidadMaxima;
 	}
 	
 	public void setNombre(String nombre) {
@@ -60,7 +60,7 @@ public class Vehiculo {
 	}
 	
 	public String getNombre() {
-		return this.nombre;
+		return nombre;
 	}
 	
 	public void setPrecio(int precio) {
@@ -68,7 +68,7 @@ public class Vehiculo {
 	}
 	
 	public int getPrecio() {
-		return this.precio;
+		return precio;
 	}
 	
 	public void setPeso(int peso) {
@@ -76,7 +76,7 @@ public class Vehiculo {
 	}
 	
 	public int getPeso() {
-		return this.peso;
+		return peso;
 	}
 	
 	public void setTraccion(String traccion) {
@@ -84,7 +84,7 @@ public class Vehiculo {
 	}
 	
 	public String getTraccion() {
-		return this.traccion;
+		return traccion;
 	}
 	
 	public void setFabricante(Fabricante fabricante) {
@@ -92,7 +92,7 @@ public class Vehiculo {
 	}
 	
 	public Fabricante getFabricante() {
-		return this.fabricante;
+		return fabricante;
 	}
 	
 	public static int getCantidadVehiculos() {
