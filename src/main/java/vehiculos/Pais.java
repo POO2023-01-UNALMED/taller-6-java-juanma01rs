@@ -17,7 +17,7 @@ public class Pais {
 		Pais masVendedor = listaPaises.get(0);
 		
 		for (Pais recorridoP: listaPaises) {
-			if (recorridoP.ventasPais > masVendedor.ventasPais) {
+			if (recorridoP.ventas > masVendedor.ventas) {
 				masVendedor = recorridoP;
 			}
 		}
